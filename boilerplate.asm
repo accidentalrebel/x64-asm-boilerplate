@@ -8,6 +8,7 @@ segment .text
 main:
 	push    rbp
 	mov     rbp, rsp
+	sub	rsp, 32
 
 	xor     rax, rax
 	call    ExitProcess
